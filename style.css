@@ -1,0 +1,221 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+    margin-top: -17px;
+    margin-right: -13px;
+    margin-left: -50px;
+}
+header{
+    height: 50px;
+    background: rgb(124, 145, 173);
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+button{
+    float: right;
+}
+nav ul{
+    width: 40%;
+    padding-left: 40px;
+}
+nav ul li{
+    display: block;
+    float: left;
+    width: 55px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+section.top > img{
+    padding-right: 50px;
+    background: rgb(124, 145, 173);
+    height: 50px;
+    width: 50px;
+    font-family: 'Hanalei Fill', cursive;
+    color: white;
+}
+section.second{
+    height: 300px;
+    background: rgb(124, 145, 173);
+    margin-left: 30px;
+    margin-right: 30px;
+    float: left;
+    clear: both;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section.second > h1{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 55px;
+    color: white;
+    margin-top: -10px;
+}
+section.second > p{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: -50px;
+
+}
+section.second > a{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: -10px;
+}
+section.second > a > img{
+    height: 15px;
+    width: 15px;
+}
+section.second > img{
+    margin-top: 25px;
+    margin-bottom: -20px;
+    color: rgb(75, 73, 73);
+}
+section.why{
+    clear: both;
+}
+section.visit{
+    clear: both;
+}
+section.why{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section.why h2{
+    font-size: 25px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+section.why p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: -20px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+section.visit{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(211, 214, 219);
+}
+section.visitUs,section.visitYou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+section.visitUs p,section.visitYou p{
+    margin-top: -10px;
+}
+section.visitUs section#visitUs,section.visitYou section#visitYou{
+    height: 150px;
+    width: 300px;
+    background-color: rgb(124, 145, 173);
+}
+section.visitUs a,section.visitYou a,section.volunteer a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(124, 145, 173);
+    padding: 5px 15px 5px 15px;
+}
+section.volunteer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    flex-direction: column;
+    text-align: center;
+}
+section.bottom,footer{
+    background-color: rgb(27, 44, 66);
+    display: flex;
+}
+section.bottom{
+    height: 125px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+section.links{
+    margin-left: 25px;
+}
+section.bottom section.links{
+    color: rgb(75, 73, 73);
+}
+section.info{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin-top: 20px;
+    margin-left: 1450px;
+    margin-right: -50px;
+    font-size: smaller;
+}
+section.info p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(182, 182, 182);
+    font-size: smaller;
+}
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer p{
+    margin-left: 25px;
+    color: white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+footer img{
+    height: 50px;
+    width: 50px;
+    font-family: 'Hanalei Fill', cursive;
+    color: white;
+    margin-top: 20px;
+    margin-left: 750px;
+    margin-right: -50px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
